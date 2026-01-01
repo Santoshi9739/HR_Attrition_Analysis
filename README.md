@@ -27,7 +27,7 @@ Power BI was used to create an interactive dashboard with:
 ---
 
 ## 🖼 Dashboard Preview
-![Dashboard Preview](Image/dashboard_preview.png)
+![Dashboard Preview](Image/Dashboard_preview.png)
 
 ---
 
