@@ -1,0 +1,60 @@
+# HR Attrition Analysis (SQL + Power BI)
+
+## 📌 Project Overview
+This project analyzes employee attrition using an end-to-end data analytics approach.
+Raw HR data was cleaned and transformed using **SQL**, and insights were visualized using an interactive **Power BI dashboard**.
+
+---
+
+## 🧹 Data Cleaning (SQL)
+SQL was used to:
+- Remove duplicate employee records
+- Handle missing and inconsistent values
+- Standardize department and job role names
+- Create derived fields such as:
+  - Age Group
+  - Tenure Band
+  - Attrition Flag
+
+The cleaned dataset was then exported for visualization.
+
+---
+
+## 📊 Data Visualization (Power BI)
+Power BI was used to build an interactive dashboard featuring:
+- KPI cards (Total Employees, Attrition Rate, Avg Tenure)
+- Attrition analysis by:
+  - Tenure
+  - Age Group
+  - Department
+  - Job Role
+  - Gender
+  - Overtime
+- Interactive slicers for filtering
+
+---
+
+## 🛠 Tools & Technologies
+- **SQL** – Data cleaning & transformation
+- **Power BI** – Data modeling & visualization
+- CSV Dataset
+- GitHub
+
+---
+
+## 🖼 Dashboard Preview
+![Dashboard Preview](images/dashboard_preview.png)
+
+---
+
+## 📂 Project Structure
+
+HR_Attrition_Analysis/
+├── powerbi/
+│   └── HR_Attrition_Dashboard.pbix
+├── data/
+│   └── hr_attrition_cleaned.csv
+├── images/
+│   └── dashboard_preview.png
+└── README.md
+
